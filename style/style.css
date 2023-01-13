@@ -1,0 +1,98 @@
+
+
+* {
+   margin:0;     
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body{
+    font-size: 100%; 
+    background: linear-gradient(to right, #1C1C1C,#363636 );
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.imagem-header{
+    border-radius: 100%;    
+    height: 55px;
+    width: 55px;
+}
+
+a { color: inherit; } 
+
+.botton{
+    color: white;
+    display: flex;
+    gap: 32px;
+    font-weight: 400;
+    font-size: 18px;
+}   
+
+.conteudo{
+    border-top: 0.4px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.conteudo-pricipal{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-principal{
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.texto-principal{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+
+.imagem-principal{
+    height: 450px;
+    padding: 20px;
+}
+
+.conteudo-chamativo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.jogos-kleitao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+    justify-content: space-around;
+}
+.conteudo-imagem{
+    height: 100px;
+    width: 120px;
+}
+.rodape{
+    border-top: 0.4px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.titulo-rodape{
+    color:aliceblue;
+    padding: 30px;
+}
